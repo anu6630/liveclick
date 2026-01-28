@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+1. Carefully analyze for each changes whether adopting a design pattern makes it better and makes it follow proper solid principles. Main design patterns to be used are indexed as doc from refactoring.guru 
+2. Follow SOLID principles
+3. Follow CLEAN archicture
+4. If you are making any changes in code always run the existing test cases see if something fails ask user whether they need to be fixed, This to be done in all changes
+5. We need 95% above code coverage - create proper unit tests. Think about edge cases and try to cover it.
+7. Dont follow bad practices just for the sake of making something work. Example downgrading a packge due to compilation issue, if that is really necessary ask the user.
+8. For any api level changes swagger doc to be updated. Use annotations to define swagger contract.
